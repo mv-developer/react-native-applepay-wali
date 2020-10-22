@@ -1,0 +1,26 @@
+{
+  "name": "react-native-applypay-wali",
+  "version": "1.0.0",
+  "description": "React Native bridge for Apple Pay",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demo": "cd ./Example && yarn && cd ios && pod install && cd .. && yarn start && react-native run-ios"
+  },
+  "keywords": [
+    "react-native",
+    "apple-pay",
+    "payments",
+    "pay"
+  ],
+  "author": "Ahmed Wali <developer@mvisions.net> (https://github.com/mv-developer)",
+  "license": "MIT",
+  "nativePackage": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mv-developer/react-native-applepay-wali.git"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.41.2"
+  }
+}
